@@ -1,0 +1,95 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  color: #fff;
+}
+  li {
+    text-justify: right;
+      display:inline;
+      
+      font-size: 20px;
+      padding: 10px; 
+    }
+    h2 {
+      margin-left: 20px;
+      display: block;
+      text-align: left;
+
+    }
+
+  #aboutme 
+  img {
+    height: 300px;
+    padding: 20;
+    border: 10px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px 20px 20px 100px;
+     float: left;
+    }
+  
+  p { 
+    display: inline;
+    margin: bottom 75px;
+    font-size: large;
+  }
+.card {
+  /* A flex-basis of 200px sets the starting width */
+  /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+  color: var(--accent);
+  background: gray;
+  
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  margin: 15px;
+  transition: all 1s;
+    }
+
+.cardimage {
+  width: 200px;
+  height: 200px;
+}
+
+/* Resize images */
+.container img {
+    width: auto;
+    height: 150px;
+}
+
+
+.card header {
+  padding: 20px;
+  background: var(--background);
+  color: var(--bright);
+  border-style: solid;
+  border-radius: 5px;
+  border-color: var(--accent);
+  text-align: center;
+      }
+
+.card:hover {
+  background: linear-gradient(90deg, rgb(91, 158, 247), rgb(40, 49, 75));
+}
+
+@media screen and (min-width: 769px) {
+  .card {
+    width: 27%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+.card {
+  width: 50%;
+}
+}
+
+@media screen and (max-width: 576px) {
+.card {
+  width: 100%;
+}
+}
