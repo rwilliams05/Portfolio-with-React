@@ -1,3 +1,37 @@
+* {
+  box-sizing: border-box;
+  background-color: #2a607c;
+  color: #fff; 
+}
+
+:root {
+  /* sets colors for page */
+  --background: #181517;
+ 
+  --accent: #b9c6ae;
+    }
+body 
+{ 
+  background: var(--background); 
+  color: var(accent);
+  font-family: 'Rajdhani', sans-serif;
+  margin: 0;
+}
+ .name {
+   font-weight:bold;
+   font-size:xx-large;
+ }
+
+ 
+.projectswrap {
+  /* Turns this element into a flexbox */
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -59,37 +93,4 @@
 .container img {
     width: auto;
     height: 150px;
-}
-
-
-.card header {
-  padding: 20px;
-  background: var(--background);
-  color: var(--bright);
-  border-style: solid;
-  border-radius: 5px;
-  border-color: var(--accent);
-  text-align: center;
-      }
-
-.card:hover {
-  background: linear-gradient(90deg, rgb(91, 158, 247), rgb(40, 49, 75));
-}
-
-@media screen and (min-width: 769px) {
-  .card {
-    width: 27%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-.card {
-  width: 50%;
-}
-}
-
-@media screen and (max-width: 576px) {
-.card {
-  width: 100%;
-}
 }

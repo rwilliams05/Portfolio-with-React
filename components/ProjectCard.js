@@ -1,7 +1,6 @@
 import React from 'react';
 
-// TODO: Add a comment explaining what is being passed to this "child" component as props
-//the handleIncrement and handleDecrement functions depeding on the button clicked
+
 function ProjectCard(props) {
   return (
     <section class="card">

@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import NavTabs from './NavTabs';
 import ContactForm from './components/ContactForm';
+import '../src.app.css';
 
 export default function PortfolioContainer() {
+  
   const [currentPage, setCurrentPage] = useState('About');
-
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+ 
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
@@ -16,9 +16,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === 'Contact Me') {
-      return <Contact />;
-    }
+
     return <ContactForm />;
   };
 
@@ -31,5 +29,10 @@ export default function PortfolioContainer() {
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
+    
   );
 }
+
+
+
+

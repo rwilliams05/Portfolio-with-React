@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './App.css';
-import { Header, Footer, Container } from '/components';
+import { NavTabs, Container } from '/components';
 import ''
 import { useState } from 'react';
 
