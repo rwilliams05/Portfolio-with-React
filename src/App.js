@@ -1,21 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import './App.css';
 import { NavTabs, Container } from '/components';
 import ''
-import { useState } from 'react';
+
 
 function App() {
   return (
     <div>
       <div>
-        <Header />
+        <NavTabs />
       </div>
       <div>
         <Container />
       </div>
-      <div>
-        <Footer />
-      </div>
+      
     </div>
 
 
