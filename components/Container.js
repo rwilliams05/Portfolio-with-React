@@ -5,7 +5,7 @@ import NavTabs from './NavTabs';
 import ContactForm from './components/ContactForm';
 import '../src.app.css';
 
-export default function PortfolioContainer() {
+export default function PageContainer() {
   
   const [currentPage, setCurrentPage] = useState('About');
  
