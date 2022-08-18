@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import './style.css';
-
-// Here we import a helper function that will check if the email is valid
-import { validateEmail } from '../../utils/helpers';
+import '../App.css';
+// import  helper function that will check if the email is valid
+import { validateEmail } from './utils/helpers';
 
 function ContactForm() {
   // Create state variables for the fields in the form
@@ -78,6 +77,16 @@ function ContactForm() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      <section id="contactme">
+      <h2>Or you can find me here:</h2>
+      <ul>
+        <li> <a href="mailto: easternexposuredev@gmail.com">Email</a> </li>
+        <li> <a href="https://github.com/rwilliams05"> Github</a> </li>
+        <li> <a href="https://www.linkedin.com/in/rachel-williams-724a7496/"> LinkedIn</a> </li>
+        <li> <a href="tel:2075582134">Phone</a> </li>
+        
+      </ul>
+    </section>
     </div>
   );
 

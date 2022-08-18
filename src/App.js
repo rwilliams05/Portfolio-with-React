@@ -1,20 +1,17 @@
 import React from "react";
 import './App.css';
-import { NavTabs, Container } from '/components';
-import ''
+import Container from './components/Container';
+
 
 
 function App() {
   return (
-    <div>
-      <div>
-        <NavTabs />
-      </div>
+          
       <div>
         <Container />
       </div>
       
-    </div>
+   
 
 
   );

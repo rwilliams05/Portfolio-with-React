@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
+import About from './About';
+import Portfolio from './Portfolio';
 import NavTabs from './NavTabs';
-import ContactForm from './components/ContactForm';
-import '../src.app.css';
+import ContactForm from './ContactForm';
+import '../App.css';
 
 export default function PageContainer() {
   

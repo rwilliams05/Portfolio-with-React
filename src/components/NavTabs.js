@@ -41,7 +41,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
-    <img src="./public/Eastern Exposure.jpg" alt="view of sunrise over bay with moon still visible" />
+    <img src="./public/images/Eastern Exposure.jpg" alt="view of sunrise over bay with moon still visible" />
     </div>
   );
 }
