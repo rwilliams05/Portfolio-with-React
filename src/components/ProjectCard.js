@@ -1,18 +1,20 @@
 import React from 'react';
+//import "./App.css";
 
-name=""
-    image_src=""
-    github=""
-    deployed=""
+
 function ProjectCard(props) {
   return (
     <section class="card">
-        <header><a href="{"target="_blank" rel="noopener noreferrer">{name}</a></header>
-        <div class="container">
-          <p><a href="https://603collective.github.io/group-project-1/"target="_blank" rel="noopener noreferrer">
-              <img src="Portfolio\NatGo Screenshot.png" alt="Screenshot of National Park Trip Planner App" /></a></p>
-        </div>
-      </section>
+      <header>{props.name}</header>
+      <div class="container">
+        <img src={props.image} alt="{alttext}" />
+       <p><a href={props.github} target="_blank" rel="noopener noreferrer">GitHub Link: {props.github}</a></p>/n
+        <p><a href= {props.deployed} target="_blank" rel="noopener noreferrer">Deployed At: {props.github}</a></p>
+
+
+
+      </div>
+    </section>
   );
 }
 
