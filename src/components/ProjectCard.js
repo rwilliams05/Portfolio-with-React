@@ -1,11 +1,11 @@
 import React from 'react';
-//import "./App.css";
+import "../App.css";
 
 
 function ProjectCard(props) {
   return (
     <section class="card">
-      <header>{props.name}</header>
+      <header class="card-header">{props.name}</header>
       <div class="container">
         <img src={props.image} alt="{alttext}" />
        <p><a href={props.github} target="_blank" rel="noopener noreferrer">GitHub Link: {props.github}</a></p>/n

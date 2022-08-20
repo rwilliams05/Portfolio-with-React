@@ -1,12 +1,18 @@
 import React from 'react';
 import Me from "../images/Me.jpg";
 
+
 export default function About() {
   return (
     <div id="aboutme">
       <h2>About Me</h2>
       <img src={Me} alt="author"/>
         <p>
+          
+          {"\n"}
+          {"\n"}
+          {"\n"}
+          {"\n"}
           {"\n"}
           {"\n"}
           {"\n"}

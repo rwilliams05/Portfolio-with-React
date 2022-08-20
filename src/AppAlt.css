@@ -95,21 +95,6 @@ body
     height: 150px;
 }
 
-
-.card header {
-  padding: 20px;
-  background: var(--background);
-  color: var(--bright);
-  border-style: solid;
-  border-radius: 5px;
-  border-color: var(--accent);
-  text-align: center;
-      }
-
-.card:hover {
-  background: linear-gradient(90deg, rgb(91, 158, 247), rgb(40, 49, 75));
-}
-
 .form {
   margin: 20px;
 }
@@ -120,22 +105,3 @@ body
   margin-bottom: 5px;
   width: 100%;
 }
-
-@media screen and (min-width: 769px) {
-  .card {
-    width: 27%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-.card {
-  width: 50%;
-}
-}
-
-@media screen and (max-width: 576px) {
-.card {
-  width: 100%;
-}
-}
-

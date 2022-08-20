@@ -1,7 +1,7 @@
 
 import ProjectCard from './ProjectCard';
 import ProjectInfo from '../ProjectInfo';
-//import "../App.css";
+import "../App.css";
 
 
 //function Wrapper(props) {
