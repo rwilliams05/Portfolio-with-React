@@ -7,7 +7,7 @@ import EasternExposure from "../images/EasternExposure.jpg";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div >
-      <header class="main-header">
+      <header className="main-header">
     <h1 class="name">Rachel Williams</h1>
     <ul className="nav nav-tabs">
       <li className="nav-item">

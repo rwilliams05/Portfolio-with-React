@@ -4,16 +4,13 @@ import ProjectInfo from '../ProjectInfo';
 import "../App.css";
 
 
-//function Wrapper(props) {
- //// return <div className="wrapper">{props.children}</div>;
-//}
 
 function Portfolio() {
-//ProjectInfo=JSON.parse(ProjectInfo);
   return (
-    <section className="container">
+    <section className="projectswrap">
       <div className="project">
         <h2 className="top-title">My Projects</h2>
+        <div> </div>
         <hr></hr>
       </div>
 
