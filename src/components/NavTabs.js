@@ -8,7 +8,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div >
       <header className="main-header">
-    <h1 class="name">Rachel Williams</h1>
+    <h1 className="name">Rachel Williams</h1>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a

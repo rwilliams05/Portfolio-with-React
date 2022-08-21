@@ -16,7 +16,7 @@ const ProjectInfo= [
     },
     {
         id: 2,
-        name: "Employee Management System",
+        name: "Employee Tracker",
         image: image2,
         github: "https://github.com/rwilliams05/Employee-Tracker",
         deployed: "https://watch.screencastify.com/v/vnczceJwjBRn6okxFtAy"
