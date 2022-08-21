@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio-rw/static/css/main.9a8c7b40.css",
-    "main.js": "/react-portfolio-rw/static/js/main.871a00a4.js",
-    "static/js/787.1bed2dd5.chunk.js": "/react-portfolio-rw/static/js/787.1bed2dd5.chunk.js",
-    "static/media/NatGoScreenshot.png": "/react-portfolio-rw/static/media/NatGoScreenshot.436e5793ba430caf36b6.png",
-    "static/media/EasternExposure.jpg": "/react-portfolio-rw/static/media/EasternExposure.3a1d40ec69806b7fc53c.jpg",
-    "static/media/EmployeeManagementSystem.png": "/react-portfolio-rw/static/media/EmployeeManagementSystem.969250455a02df72746c.png",
-    "static/media/SocialNetworkAPI.png": "/react-portfolio-rw/static/media/SocialNetworkAPI.1ec996207287f30c6fc2.png",
-    "static/media/Me.jpg": "/react-portfolio-rw/static/media/Me.328ac4c97ce2d4733125.jpg",
-    "static/media/WeatherDashboardScreenshot.png": "/react-portfolio-rw/static/media/WeatherDashboardScreenshot.7954460c64a6629c757c.png",
-    "static/media/TextEditorScreenshot.png": "/react-portfolio-rw/static/media/TextEditorScreenshot.599da996c816fd38f5d9.png",
-    "static/media/NoteTakerScreenshot.png": "/react-portfolio-rw/static/media/NoteTakerScreenshot.bfff0fc6bd1aad00a7ec.png",
-    "index.html": "/react-portfolio-rw/index.html",
-    "main.9a8c7b40.css.map": "/react-portfolio-rw/static/css/main.9a8c7b40.css.map",
-    "main.871a00a4.js.map": "/react-portfolio-rw/static/js/main.871a00a4.js.map",
-    "787.1bed2dd5.chunk.js.map": "/react-portfolio-rw/static/js/787.1bed2dd5.chunk.js.map"
+    "main.css": "/Portfolio-with-React/static/css/main.9a8c7b40.css",
+    "main.js": "/Portfolio-with-React/static/js/main.b662ca3d.js",
+    "static/js/787.1bed2dd5.chunk.js": "/Portfolio-with-React/static/js/787.1bed2dd5.chunk.js",
+    "static/media/NatGoScreenshot.png": "/Portfolio-with-React/static/media/NatGoScreenshot.436e5793ba430caf36b6.png",
+    "static/media/EasternExposure.jpg": "/Portfolio-with-React/static/media/EasternExposure.3a1d40ec69806b7fc53c.jpg",
+    "static/media/EmployeeManagementSystem.png": "/Portfolio-with-React/static/media/EmployeeManagementSystem.969250455a02df72746c.png",
+    "static/media/SocialNetworkAPI.png": "/Portfolio-with-React/static/media/SocialNetworkAPI.1ec996207287f30c6fc2.png",
+    "static/media/Me.jpg": "/Portfolio-with-React/static/media/Me.328ac4c97ce2d4733125.jpg",
+    "static/media/WeatherDashboardScreenshot.png": "/Portfolio-with-React/static/media/WeatherDashboardScreenshot.7954460c64a6629c757c.png",
+    "static/media/TextEditorScreenshot.png": "/Portfolio-with-React/static/media/TextEditorScreenshot.599da996c816fd38f5d9.png",
+    "static/media/NoteTakerScreenshot.png": "/Portfolio-with-React/static/media/NoteTakerScreenshot.bfff0fc6bd1aad00a7ec.png",
+    "index.html": "/Portfolio-with-React/index.html",
+    "main.9a8c7b40.css.map": "/Portfolio-with-React/static/css/main.9a8c7b40.css.map",
+    "main.b662ca3d.js.map": "/Portfolio-with-React/static/js/main.b662ca3d.js.map",
+    "787.1bed2dd5.chunk.js.map": "/Portfolio-with-React/static/js/787.1bed2dd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a8c7b40.css",
-    "static/js/main.871a00a4.js"
+    "static/js/main.b662ca3d.js"
   ]
 }
