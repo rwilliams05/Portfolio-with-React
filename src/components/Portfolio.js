@@ -7,12 +7,12 @@ import "../App.css";
 
 function Portfolio() {
   return (
+    <div>
+    <div class="projectheader">
+        <h2>My Projects</h2>
+              </div>
     <section className="projectswrap">
-      <div className="project">
-        <h2 className="top-title">My Projects</h2>
-        <div> </div>
-        <hr></hr>
-      </div>
+      
 
       
         {ProjectInfo.map((project) => {
@@ -24,6 +24,7 @@ function Portfolio() {
         })};
       
     </section>
+    </div>
 
   );
 

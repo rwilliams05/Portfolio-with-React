@@ -47,7 +47,7 @@ function ContactForm() {
   };
   return (
     <div>
-      <p>Get in Touch!</p>
+      <h2>Get in Touch!</h2>
       <form className="form">
         <input
           value={email}

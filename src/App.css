@@ -69,6 +69,11 @@ body
     margin: bottom 75px;
     font-size: large;
   }
+
+  .projectheader {
+    display: block;
+    margin: bottom 75px
+  }
 .card {
   /* A flex-basis of 200px sets the starting width */
   /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
